@@ -28,7 +28,7 @@ const Comment = ({ commentData, children }) => {
 					</div>
 				</div>
 			</div>
-			{children}
+			{children ? <div className={styles.childComments}>{children}</div> : ''}
 		</>
 	);
 };

@@ -8,7 +8,8 @@
 					"picture": "img/ivana.jpg"
 				},
 				"text": "Hello there, so I was wondering if you know how much MB is in a GB?",
-				"timestamp": 414514740000
+				"timestamp": 414514740000,
+				"children": ["2", "3"]
 			},
 			{
 				"id": "2",
@@ -18,7 +19,8 @@
 					"picture": "img/zmaj.jpg"
 				},
 				"text": "Hey Ivana! Have you tried Googling that?",
-				"timestamp": 414514860000
+				"timestamp": 414514860000,
+				"children": ["5", "6"]
 			},
 			{
 				"id": "3",
@@ -38,6 +40,26 @@
 				},
 				"text": "Hey guys, here is a nice web for that comoplicated conversion. www.convertunits.com/from/MB/to/GB",
 				"timestamp": 1626861080278
+			},
+			{
+				"id": "5",
+				"parent_id": "2",
+				"author": {
+					"name": "Ivana Paradzikovic",
+					"picture": "img/ivana.jpg"
+				},
+				"text": "Hello there, so I was wondering if you know how much MB is in a GB?",
+				"timestamp": 414514740000
+			},
+			{
+				"id": "6",
+				"parent_id": "2",
+				"author": {
+					"name": "Ivana Paradzikovic",
+					"picture": "img/ivana.jpg"
+				},
+				"text": "Hello there, so I was wondering if you know how much MB is in a GB?",
+				"timestamp": 414514740000
 			}
 		]
 	}

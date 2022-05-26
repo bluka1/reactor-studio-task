@@ -1,0 +1,29 @@
+.newMessageContainer {
+	align-items: center;
+	background-color: var(--white-primary);
+	border: 1px solid var(--grey-secondary);
+	border-radius: 8px;
+	bottom: 0px;
+	display: flex;
+	gap: 16px;
+	justify-content: space-between;
+	padding: 8px;
+	position: sticky;
+	width: 100%;
+}
+
+.newMessageContainer > .textarea {
+	border: none;
+	color: var(--black-primary);
+	flex: 1;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
+	outline: none;
+	overflow: auto;
+	resize: none;
+}
+
+.newMessageContainer > textarea::placeholder {
+	line-height: 40px;
+}

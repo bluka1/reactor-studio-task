@@ -1,0 +1,8 @@
+.commentDate {
+	color: var(--grey-text);
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	margin: 18px auto;
+	text-align: center;
+}

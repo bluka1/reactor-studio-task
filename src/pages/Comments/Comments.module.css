@@ -1,0 +1,16 @@
+.commentsContainer {
+	background-color: var(--grey-primary);
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	height: 864px;
+	overflow: auto;
+	padding: 32px 32px 32px 32px;
+	position: relative;
+	width: 1032px;
+}
+
+.comments {
+	flex: 1;
+	overflow-y: auto;
+}

@@ -40,7 +40,7 @@ const Comments = () => {
 
 	return (
 		<div className={styles.commentsContainer}>
-			<div className={styles.comments}>{rendercomments}</div>
+			<div className={styles.comments}>{comments}</div>
 			<NewMessage />
 		</div>
 	);

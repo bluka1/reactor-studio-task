@@ -14,3 +14,9 @@ Before taking a look at my solution for this part, please take a look at how I m
 ## more-levels-without-modifying-data branch
 
 I made this branch after more-levels branch. I wanted to try adding more levels without modifying any data so I think I was successful.
+
+### start app
+
+`npm ci` for installing packages
+
+`npm start` fro running app

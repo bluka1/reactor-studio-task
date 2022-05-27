@@ -6,7 +6,7 @@ import NewMessage from '../../components/NewMessage/NewMessage';
 import CommentDate from '../../components/CommentDate/CommentDate';
 
 const Comments = () => {
-	const rendercomments = useMemo(() => {
+	const comments = useMemo(() => {
 		return data.data.comments.map((comment) => {
 			return (
 				<div key={comment.id}>
@@ -28,7 +28,7 @@ const Comments = () => {
 
 	return (
 		<div className={styles.commentsContainer}>
-			<div className={styles.comments}>{rendercomments}</div>
+			<div className={styles.comments}>{comments}</div>
 			<NewMessage />
 		</div>
 	);

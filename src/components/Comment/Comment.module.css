@@ -77,3 +77,7 @@
 .commentContainer > .comment > .commentInfo > .reply:hover {
 	text-decoration: underline;
 }
+
+.childrenContainer {
+	margin-left: 60px;
+}

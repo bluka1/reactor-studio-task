@@ -23,7 +23,7 @@ const Comments = () => {
 		});
 	}, []);
 
-	const rendercomments = useMemo(() => {
+	const comments = useMemo(() => {
 		return data.data.comments.map((comment) => {
 			return (
 				<div key={comment.id}>

@@ -28,11 +28,7 @@ const Comment = ({ commentData, children }) => {
 					</div>
 				</div>
 			</div>
-			{children ? (
-				<div className={styles.childrenContainer}>{children}</div>
-			) : (
-				''
-			)}
+			{children && <div className={styles.childrenContainer}>{children}</div>}
 		</>
 	);
 };

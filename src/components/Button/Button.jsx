@@ -5,7 +5,7 @@ const Button = ({ Icon, text }) => {
 	return (
 		<button className={styles.button}>
 			<Icon />
-			{text ? text : ''}
+			{text && text}
 		</button>
 	);
 };
